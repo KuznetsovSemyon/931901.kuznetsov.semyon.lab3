@@ -25,29 +25,33 @@ a:hover {
 }
 
 main {
-    margin: 0;
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
-    width: 40em;
+    max-width: 750px;
+    width: fit-content;
+    display: flex;
+    margin-bottom: -19px;
+
 }
 
 .column1 {
-    width: 30%;
+    width: 200px;
+    min-width: 200px;
     color: white;
     background: red;
     float: left;
-    height: 87%;
     font-size: 85%;
+    height: 550px;
 }
 
 .column2 {
-    width: 60%;
     margin-top: 2em;
     margin-left: 2em;
-    float: left;
+    margin-right: 2em;
+    float: right;
     font-size: 85%;
-    text-align:justify;
+    text-align: justify
 }
 
 .column2:first-letter {
@@ -58,7 +62,7 @@ main {
 .nav {
     margin-top: 25px;
     margin-left: 45px;
-    margin-right: auto;
+    margin-right: 25px;
 }
 
 footer {
@@ -66,6 +70,6 @@ footer {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    height: 41px;
-    clear: both;
+    height: 35px;
+    clear:both;
 }
